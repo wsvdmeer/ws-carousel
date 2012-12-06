@@ -1,0 +1,85 @@
+.carousel{
+    overflow: hidden;
+    float: left;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    background-image:url("images/loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color:#ccc;
+    position: relative;
+}
+
+.carousel .items{
+    display: block;
+    float: left;
+    list-style: none;
+    margin:0;
+    padding:0;
+
+
+}
+
+.carousel .items li{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.carousel .items li.active{
+    left:0;
+}
+
+.carousel .dots{
+    position: absolute;
+    bottom:20px;
+    left:20px;
+   
+}
+
+.carousel .dots li{
+    width:13px;
+    height:13px;
+    float: left;
+    background-color:white;
+    margin-right:5px;
+    display: block;
+    border-radius: 50%;
+    cursor:pointer;
+    
+}
+
+.carousel .dots li.active{
+    background-color:transparent;
+    border:3px solid white;
+    width:7px;
+    height:7px;
+    
+}
+
+.carousel .carousel-button{
+    width:20px;
+    height:37px;
+    position: absolute;
+    top:50%;
+    margin-top:-18px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    cursor:pointer;
+}
+
+.carousel .carousel-button.left{
+    left:20px;
+    background-image:url("../images/arrow-left.png");
+}
+
+.carousel .carousel-button.right{
+   right:20px;
+    background-image:url("../images/arrow-right.png");
+}

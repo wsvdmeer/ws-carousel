@@ -1,0 +1,84 @@
+body, html{
+   width:100%;
+   height:100%;
+   background-color:#333;
+   margin:0;
+   padding:0;
+}
+body{
+  font-family: "Arial";
+  font-size:13px;
+
+}
+
+.main{
+   width:960px;
+   height:300px;
+   position: absolute;
+   left:50%;
+   top:50%;
+   margin-left:-480px;
+   margin-top:-150px;
+   
+}
+
+.carousel{
+width:660px;
+height:300px;
+float: left;
+font-size: 30px;
+color:white;
+}
+
+.carousel .items{
+   width:100%;
+    height:100%;
+    display: block;
+}
+.carousel .items li{
+  width:100%;
+  height:100%;
+    
+    display: block;
+    text-align: center;
+    line-height: 300px;
+    
+    
+}
+.carousel .items li#one{
+   background-color:#eee; 
+}
+.carousel .items li#two{
+   background-color:#ccc; 
+}
+.carousel .items li#three{
+   background-color:#aaa; 
+}
+
+.info{
+   float: left;
+   padding:30px;
+   background-color:white;
+   height:240px;
+   width:200px;
+}
+
+.info h2{
+   margin:0;
+   padding:0;
+   font-weight: normal;
+   margin-bottom:10px;
+   margin-top:10px;
+}
+.info ul{
+   margin:0;
+   padding:0;
+   color:#666;
+   list-style: none;
+}
+.info ul li{
+   margin-bottom:3px;
+}
+a{
+   color:#EC008C;
+}
